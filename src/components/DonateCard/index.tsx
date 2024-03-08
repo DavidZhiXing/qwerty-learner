@@ -70,7 +70,7 @@ export const DonateCard = () => {
       const now = dayjs()
       const diff = now.diff(date, 'day')
       if (!storedDate || diff > 60) {
-        setShow(true)
+        // setShow(true)
       }
     }
   }, [chapterNumber])
